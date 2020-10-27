@@ -1,0 +1,19 @@
+#gallery img{
+    width: 90%;
+    margin-bottom: 1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+@media(min-width: 812px)
+{
+    #gallery img{width: 40%;}
+}
+
+@media(min-width: 1000px)
+{
+    #gallery img{width: 40%;}
+}
+@media(min-width: 1440px)
+{
+    #gallery img{width: 23%;}
+}

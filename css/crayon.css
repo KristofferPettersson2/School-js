@@ -1,0 +1,87 @@
+.crayon-left{
+    border-radius: 5px;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius:50% ;
+    width: 5rem;
+    height: 17px;
+  
+
+    --crayon-color: rgb(33, 115, 71);
+    --crayon-paper-color: rgba(18, 223, 114, 0.335);
+    --crayon-line-color: rgb(33, 115, 71);
+    --crayon-shadow-color:rgba(0, 0, 0, 0.609);
+
+    background-color: var(--crayon-color);
+    box-shadow: 2px 2px 3px var(--crayon-shadow-color);
+    
+    background-image: 
+    linear-gradient(to bottom, transparent 50%, var(--crayon-shadow-color)100%),
+    
+    radial-gradient(ellipse at top, var(--crayon-line-color)25%, transparent 30%),
+
+    linear-gradient(to right, transparent 14%, var(--crayon-line-color)14%, var(--crayon-line-color)17%, transparent 17%),
+    linear-gradient(to right, transparent 20%, var(--crayon-line-color)20%, var(--crayon-line-color)23%, transparent 23%),
+    
+    linear-gradient(to left, transparent 14%, var(--crayon-line-color)14%, var(--crayon-line-color)17%, transparent 17%),
+    linear-gradient(to left, transparent 20%, var(--crayon-line-color)20%, var(--crayon-line-color)23%, transparent 23%),
+    
+    linear-gradient(to right, transparent 8%, var(--crayon-paper-color) 8%, var(--crayon-paper-color)92%, transparent 92%);
+}
+
+.crayon-right{
+    border-radius: 5px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius:50% ;
+    width: 5rem;
+    height: 17px;
+  
+
+    --crayon-color: rgb(33, 115, 71);
+    --crayon-paper-color: rgba(18, 223, 114, 0.335);
+    --crayon-line-color: rgb(33, 115, 71);
+    --crayon-shadow-color:rgba(0, 0, 0, 0.609);
+
+    background-color: var(--crayon-color);
+    box-shadow: 2px 2px 3px var(--crayon-shadow-color);
+    
+    background-image: 
+    linear-gradient(to bottom, transparent 50%, var(--crayon-shadow-color)100%),
+    
+    radial-gradient(ellipse at top, var(--crayon-line-color)25%, transparent 30%),
+
+    linear-gradient(to right, transparent 14%, var(--crayon-line-color)14%, var(--crayon-line-color)17%, transparent 17%),
+    linear-gradient(to right, transparent 20%, var(--crayon-line-color)20%, var(--crayon-line-color)23%, transparent 23%),
+    
+    linear-gradient(to left, transparent 14%, var(--crayon-line-color)14%, var(--crayon-line-color)17%, transparent 17%),
+    linear-gradient(to left, transparent 20%, var(--crayon-line-color)20%, var(--crayon-line-color)23%, transparent 23%),
+    
+    linear-gradient(to right, transparent 8%, var(--crayon-paper-color) 8%, var(--crayon-paper-color)92%, transparent 92%);
+}
+
+/* Small Devices */
+@media(max-width: 320px){
+    .crayon-container{text-align: center;}
+}
+
+@media(min-width:700px){
+    #features > div > div{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    #gallery > div > div{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .lg-margin{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    } 
+    #our-classes > div > div{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    #fun-facts > div > div{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}

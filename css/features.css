@@ -1,0 +1,16 @@
+.teacher-cirle{
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
+}
+.white-circle{
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+}
+.icon-size{
+    font-size: 150%;
+}
+
+.font-times{font-family: 'Times New Roman', Times, serif;}

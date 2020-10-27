@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Kidz School Bootstrap</title>
+
+    <script src="https://kit.fontawesome.com/2d8d6a9639.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/color-bar.css">
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/crayon.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/image-gallery.css">
+    <link rel="stylesheet" href="css/our-teachers.css">
+    <link rel="stylesheet" href="css/our-classes.css">
+    <link rel="stylesheet" href="css/fun-facts.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+    <header>
+        <!-- Color bar -->
+        <div id class="d-flex flex-row bar-height">
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <!-- nav-bar -->
+        <nav class="d-flex flex-row align-items-center justify-content-around bg-color">
+            <a href="#"><img src="images/logo-school.png" alt="Kids logo" class="my-4"></a>            
+            <div class="flex-row mt-4 d-none d-md-flex">
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none ">
+                    <i class="fas fa-home bg-primary text-white shadow-sm rounded-circle nav-icon d-flex justify-content-center"></i>
+                    <span class="font-pacifico">Home</span>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <i class="fas fa-store bg-danger text-white shadow-sm rounded-circle nav-icon d-flex justify-content-center"></i>
+                    <span class="font-pacifico">store</span>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <i class="fas fa-user-graduate bg-info text-white shadow-sm rounded-circle nav-icon d-flex justify-content-center"></i>
+                    <span class="font-pacifico">Courses</span>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <i class="fas fa-blog bg-success text-white shadow-sm rounded-circle nav-icon d-flex justify-content-center"></i>
+                    <span class="font-pacifico">blog</span>
+                </a>
+            </div>
+            <div>
+                <button class="btn btn-warning position-relative shadow-sm mr-2 btn-grad">
+                    <i class="fas fa-shopping-cart text-white"></i>
+                    <span id="cart-count" class="nav-cart-count bg-success rounded-circle position-absolute text-white"></span>
+                </button>
+                <button class="btn btn-info text-white shadow-sm d-md-none ml-3">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Color bar -->
+          <div id class="d-flex flex-row bar-height">
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <!-- Mobile nav-bar -->
+        <div class="d-flex flex-column align-items-end d-md-none pt-2 mx-4">
+            <a href="#" class="d-flex flex-row-reverse align-items-center text-decoration-none border-bottom w-100">
+                <i class="fas fa-home bg-primary text-white shadow-sm rounded-circle nav-icon d-flex justify-content-center"></i>
+                <span class="mr-2 font-pacifico">Home</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse align-items-center text-decoration-none border-bottom w-100">
+                <i class="fas fa-store bg-danger text-white shadow-sm rounded-circle nav-icon d-flex justify-content-center"></i>
+                <span class="mr-2 font-pacifico">Store</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse align-items-center text-decoration-none border-bottom w-100">
+                <i class="fas fa-user-graduate bg-info text-white shadow-sm rounded-circle nav-icon d-flex justify-content-center"></i>
+                <span class="mr-2 font-pacifico">Courses</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse align-items-center text-decoration-none border-bottom w-100">
+                <i class="fas fa-blog bg-success text-white shadow-sm rounded-circle nav-icon d-flex justify-content-center"></i>
+                <span class="mr-2 font-pacifico">Blog</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Slider Image -->
+    <section id="slider" class="d-flex flex-column justify-content-center slider-image-1">
+        <div class="d-flex flex-column align-items-center">
+            <div class="h1 pb-4 text-shadow">School Website</div>
+            <div class="h5 text-white text-center font-times">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+    </section>
+
+    <!-- Our Features -->
+    <section id="features" class="font-times">
+    <!-- Crayon -->
+        <div class="crayon-container d-flex flex-row justify-content-center align-items-center py-5">
+            <div class="crayon-left mr-4" style="--crayon-color: #48da1c; --crayon-line-color:#48da1c; --crayon-paper-color: #469b2c; "></div>
+            <div class="h3 text-success font-pacifico test">Our Features</div>
+            <div class="crayon-right ml-4" style="--crayon-color: #48da1c; --crayon-line-color:#48da1c; --crayon-paper-color: #469b2c; "></div>
+        </div>
+        <!-- Exp Teachers -->
+        <div class="d-flex flex-column justify-content-around align-items-center pb-5">
+            <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex flex-column justify-content-center align-items-center flex-lg-row">
+                    <!-- Circle -->
+                    <div class="d-flex flex-row mx-1">
+                        <div class="d-flex bg-danger align-items-center justify-content-center teacher-cirle">
+                            <div class="white-circle d-flex justify-content-center align-items-center">
+                                <div class="fas fa-graduation-cap text-white icon-size"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column ml-3 w-75">
+                            <h3 class="text-danger">Experienced Teachers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aut numquam ex fugit at nihil eum magni unde iure sint.</p>
+                        </div>
+                    </div>
+                    <!-- Circle -->
+                    <div class="d-flex flex-row mx-1">
+                        <div class="d-flex bg-primary align-items-center justify-content-center teacher-cirle">
+                            <div class="white-circle d-flex justify-content-center align-items-center">
+                                <div class="fas fa-graduation-cap text-white icon-size"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column ml-3 w-75">
+                            <h3 class="text-primary">Experienced Teachers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aut numquam ex fugit at nihil eum magni unde iure sint.</p>
+                        </div>
+                    </div>
+                    <!-- Circle -->
+                    <div class="d-flex flex-row mx-1">
+                        <div class="d-flex bg-success align-items-center justify-content-center teacher-cirle">
+                            <div class="white-circle d-flex justify-content-center align-items-center">
+                                <div class="fas fa-graduation-cap text-white icon-size"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column ml-3 w-75">
+                            <h3 class="text-success">Experienced Teachers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aut numquam ex fugit at nihil eum magni unde iure sint.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex flex-column justify-content-center align-items-center flex-lg-row">
+                    <!-- Circle -->
+                    <div class="d-flex flex-row mx-1">
+                        <div class="d-flex bg-warning align-items-center justify-content-center teacher-cirle">
+                            <div class="white-circle d-flex justify-content-center align-items-center">
+                                <div class="fas fa-graduation-cap text-white icon-size"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column ml-3 w-75">
+                            <h3 class="text-warning">Experienced Teachers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aut numquam ex fugit at nihil eum magni unde iure sint.</p>
+                        </div>
+                    </div>
+                    <!-- Circle -->
+                    <div class="d-flex flex-row mx-1">
+                        <div class="d-flex bg-danger align-items-center justify-content-center teacher-cirle">
+                            <div class="white-circle d-flex justify-content-center align-items-center">
+                                <div class="fas fa-graduation-cap text-white icon-size"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column ml-3 w-75">
+                            <h3 class="text-danger">Experienced Teachers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aut numquam ex fugit at nihil eum magni unde iure sint.</p>
+                        </div>
+                    </div>
+                    <!-- Circle -->
+                    <div class="d-flex flex-row mx-1">
+                        <div class="d-flex bg-info align-items-center justify-content-center teacher-cirle">
+                            <div class="white-circle d-flex justify-content-center align-items-center">
+                                <div class="fas fa-graduation-cap text-white icon-size"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column ml-3 w-75">
+                            <h3 class="text-info">Experienced Teachers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aut numquam ex fugit at nihil eum magni unde iure sint.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="font-times">
+        <div class="bg-info py-5">
+            <div class="d-flex flex-column align-items-center contact-height">
+                <h3 class="font-weight-bold">Need more information?</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, nemo!</p>
+                <button type="button" class="btn btn-success btn-lg shadow">
+                    <i class="fas fa-phone"></i>
+                    Contact
+                </button>            
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Gallery -->
+    <section id="gallery">
+         <!-- Crayon -->
+         <div class="crayon-container d-flex flex-row justify-content-center align-items-center py-5">
+            <div class="crayon-left mr-4" style="--crayon-color: #da1cca; --crayon-line-color:#da1cca; --crayon-paper-color: #921688; "></div>
+            <div class="h3 text-danger font-pacifico">Our Gallery</div>
+            <div class="crayon-right ml-4" style="--crayon-color: #da1cca; --crayon-line-color:#da1cca; --crayon-paper-color: #921688; "></div>
+        </div>
+        <!-- Images -->
+        <div class="d-flex flex-column flex-wrap justify-content-center align-items-center flex-md-row">
+            <img src="images/gallery/gallery-lg-img1.jpg" alt="kids" class="">
+            <img src="images/gallery/gallery-lg-img2.jpg" alt="kids" class="">
+            <img src="images/gallery/gallery-lg-img3.jpg" alt="kids" class="">
+            <img src="images/gallery/gallery-lg-img4.jpg" alt="kids" class="">
+            <img src="images/gallery/gallery-lg-img5.jpg" alt="kids" class="">
+            <img src="images/gallery/gallery-lg-img6.jpg" alt="kids" class="">
+            <img src="images/gallery/gallery-lg-img7.jpg" alt="kids" class="">
+            <img src="images/gallery/gallery-lg-img8.jpg" alt="kids" class="">
+        </div>
+    </section>
+
+    <!-- Our Teachers -->
+    <section id="" class="mt-5">
+        <div class="bg-success">
+                <!-- Crayon -->
+            <div class="crayon-container d-flex flex-row justify-content-center align-items-center py-5">
+                <div class="crayon-left mr-4" style="--crayon-color: #cdda1c; --crayon-line-color:#cdda1c; --crayon-paper-color: #9ba32a; "></div>
+                <div class="h3 text-warning font-pacifico lg-margin">Our Teachers</div>
+                <div class="crayon-right ml-4" style="--crayon-color: #cdda1c; --crayon-line-color:#cdda1c; --crayon-paper-color: #9ba32a; "></div>
+            </div>
+            <div id="our-teachers" class="d-flex flex-column justify-content-center align-items-center flex-md-row pt-3 pb-5">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Classes -->
+    <section id="our-classes">
+         <!-- Crayon -->
+         <div class="crayon-container d-flex flex-row justify-content-center align-items-center py-5">
+            <div class="crayon-left mr-4" style="--crayon-color: #da1c3c; --crayon-line-color:#da1c3c; --crayon-paper-color: #7e1526; "></div>
+            <div class="h3 text-danger font-pacifico">Our Classes</div>
+            <div class="crayon-right ml-4" style="--crayon-color: #da1c3c; --crayon-line-color:#da1c3c; --crayon-paper-color: #7e1526; "></div>
+        </div>
+      <!-- Classes Container -->
+      <div id="courses" class="d-flex flex-column flex-wrap justify-content-center flex-sm-row mb-5">
+     </div>
+    </section>
+
+    <!-- Fun Facts -->
+    <section id="fun-facts">
+        <div class="crayon-container d-flex flex-row justify-content-center align-items-center py-5">
+            <div class="crayon-left mr-4" style="--crayon-color: #48da1c; --crayon-line-color:#48da1c; --crayon-paper-color: #469b2c; "></div>
+            <div class="h3 text-success font-pacifico">Our Features</div>
+            <div class="crayon-right ml-4" style="--crayon-color: #48da1c; --crayon-line-color:#48da1c; --crayon-paper-color: #469b2c; "></div>
+        </div>
+        <div class="text-white text-center h4 pb-5">Lorem ipsum dolor sit, amet consectetur adipisicing</div>
+        
+        <div class="d-flex flex-column flex-wrap justify-content-center align-items-center flex-md-row py-5">
+            <!-- Fact Circle -->
+            <div class="d-flex flex-column align-items-center mb-5 fun-circle-width">
+                <div class=" d-flex align-items-center justify-content-center fun-facts-circle">
+                    <div class="h4 text-white">100%</div>
+                </div>
+                <div class="bg-success text-white h5 rounded px-3 mt-3 py-1">Happy Clients</div>
+            </div>
+              <!-- Fact Circle -->
+              <div class="d-flex flex-column align-items-center mb-5 fun-circle-width">
+                <div class=" d-flex align-items-center justify-content-center fun-facts-circle">
+                    <div class="h4 text-white">175</div>
+                </div>
+                <div class="bg-success text-white h5 rounded px-3 mt-3 py-1">School</div>
+            </div>
+                <!-- Fact Circle -->
+                <div class="d-flex flex-column align-items-center mb-5 fun-circle-width">
+                    <div class=" d-flex align-items-center justify-content-center fun-facts-circle">
+                        <div class="h4 text-white">625</div>
+                    </div>
+                    <div class="bg-success text-white h5 rounded px-3 mt-3 py-1">Girls</div>
+                </div>
+                    <!-- Fact Circle -->
+              <div class="d-flex flex-column align-items-center mb-5 fun-circle-width">
+                <div class=" d-flex align-items-center justify-content-center fun-facts-circle">
+                    <div class="h4 text-white">730</div>
+                </div>
+                <div class="bg-success text-white h5 rounded px-3 mt-3 py-1">Boys</div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+          <!-- Color bar -->
+          <div id class="d-flex flex-row bar-height">
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <!-- Contact -->
+        <div class="d-flex flex-column flex-wrap flex-md-row justify-content-center m-contact">
+            <div class="d-flex flex-column justify-content-center pt-4 pl-5">
+                <img src="images/logo-school.png" alt="kids logo">
+                <div class="py-4 mr-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                <div class="py-1">Excepteur sint occaecat cupidatat non proident</div>
+                <div class="mb-3 mt-4">
+                    <i class="fas fa-map-marker-alt text-success"></i>
+                    <span> 1st sreet, 12345, Stockholm, Sweden</span>
+                </div>
+                <div class="mb-3">
+                    <i class="fas fa-at text-warning"></i>
+                    <span>  info@kidz-school.com</span>
+                </div>
+                <div class="">
+                    <i class="fas fa-phone text-danger"></i>
+                    <span>  +00 700 00 11 33</span>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <form action="#" class="d-flex justify-content-center mt-5 m-form">
+                <div class="d-flex flex-column">
+                    <div class="h2 text-primary mb-4">Contact</div>
+                    <div class="d-flex position-relative mb-3 test">
+                        <i class="fas fa-user text-success position-absolute d-flex"></i>
+                        <input type="text" class="form-control" placeholder="Enter Name">
+                    </div>
+                    <div class="d-flex position-relative mb-3">
+                        <i class="fas fa-at text-warning position-absolute d-flex"></i>
+                        <input type="text" class="form-control" placeholder="Email address">
+                    </div>
+                    <div class="d-flex position-relative mb-3">
+                        <i class="fas fa-comments text-primary position-absolute d-flex"></i>
+                        <textarea name="" id="" cols="" rows="" class="form-control" placeholder="Enter Message here..."></textarea>
+                    </div>
+                    <button class="btn btn-lg btn-success shadow mb-5 mt-4">Send Message</button>
+                </div>
+            </form>
+        </div>
+
+          <!-- Color bar -->
+          <div id class="d-flex flex-row bar-height">
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger d-none d-md-flex" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </footer>
+
+
+
+
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/api.js"></script>
+</body>
+</html>

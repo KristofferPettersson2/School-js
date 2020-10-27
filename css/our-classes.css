@@ -1,0 +1,33 @@
+.class-card img{
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+.class-card > div{
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.date{
+    border-radius: 1rem;
+    left: 10px;
+    top: 10px;
+    width: 4rem;
+}
+
+#courses button{ margin-top: auto;}
+
+@media(min-width:600px){
+   .class-card img{
+        width: 330px !important;
+        border-radius: 0%;
+        border-top-left-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+    }
+    .class-card > div:first-of-type{
+        width: 250px !important;
+        border-radius: 0%;
+        border-top-right-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+    }
+    .class-card{line-height: 20px;}
+}
